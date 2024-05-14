@@ -4,10 +4,20 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.top , .bottom {
+.top, .bottom {
     display: flex;
     justify-content: space-between;
-    margin: 2rem 0;
+    margin: 20px 0;
+}
+.top .block {
+    margin: 10px;
+}
+.bottom button {
+    margin: 10px;
+}
+.block p{
+    margin: 10px auto;
+    width: 60%;
 }
 .block, input, select, button {
     width: 80%;
